@@ -1,4 +1,4 @@
-INSERT INTO `material` (`in_id`,`ma_id`, `material_name`, `type`, `stock`, `unit`, `remarks`, `date_created_at`, `date_updated_at`) 
+INSERT INTO `inventory` (`in_id`,`ma_id`, `material_name`, `type`, `stock`, `unit`, `remarks`, `date_created_at`, `date_updated_at`) 
 
 
 VALUES 
