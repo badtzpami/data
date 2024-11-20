@@ -24,7 +24,7 @@ CREATE TABLE `product` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 CREATE TABLE `material` (
-  `ma_id` CHAR(10) NOT NULL,
+  `ma_id` VARCHAR(255) NOT NULL,
   `material_name` varchar(222) NOT NULL,
   `type` varchar(222) NOT NULL,
   `stock` int(222) NOT NULL,
@@ -38,6 +38,23 @@ CREATE TABLE `material` (
   PRIMARY KEY (`ma_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
+CREATE TABLE `inventory` (
+  `in_id` VARCHAR(255) NOT NULL,
+  `ma_id` VARCHAR(255) NOT NULL,
+  `material_name` varchar(222) NOT NULL,
+  `type` varchar(222) NOT NULL,
+  `stock` int(222) NOT NULL,
+  `unit` varchar(222) NOT NULL,
+  `remarks` varchar(222) NOT NULL,
+  `date_created_at` datetime NOT NULL,
+  `date_updated_at` datetime NOT NULL,
+  PRIMARY KEY (`ma_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+
+  
+
+  
+)
 
 CREATE TABLE `supplier` (
   `su_id` CHAR(10) NOT NULL,
