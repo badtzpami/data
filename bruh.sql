@@ -1,6 +1,4 @@
 INSERT INTO `inventory` (`in_id`,`ma_id`, `material_name`, `type`, `stock`, `unit`, `remarks`, `date_created_at`, `date_updated_at`) 
-
-
 VALUES 
     ('IN001','MA001', 'SUGAR SYRUP', 'RAW', 500, 'ML', 'AVAILABLE', '2024-11-09', '0000-00-00 00:00:00'),
     ('IN002','MA002', 'BROWN SUGAR', 'RAW', 300, 'G', 'AVAILABLE', '2024-11-09', '0000-00-00 00:00:00'),
