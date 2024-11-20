@@ -1,0 +1,7 @@
+INSERT INTO users (`users`)
+VALUES 
+(`SU001`),
+(`SU002`),
+(`SU003`),
+(`SU004`),
+(`SU005`);
