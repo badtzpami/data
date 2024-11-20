@@ -51,14 +51,14 @@ CREATE TABLE `supplier` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 
-CREATE TABLE `delivery` (
+CREATE TABLE `logistics` (
     `delivery_id` INT AUTO_INCREMENT PRIMARY KEY,
-    `su_id`  int(11) NOT NULL,      
+    `user_id`  int(11) NOT NULL,      
     `delivery_date` DATETIME NOT NULL,   
     `delivery_status` VARCHAR(50) NOT NULL,        
     `total_items` INT DEFAULT 0,          
     `shop_location` VARCHAR(100) NOT NULL,
-    FOREIGN KEY (`su_id`) REFERENCES `supplier`(`su_id`)
+    FOREIGN KEY (`user_id`) REFERENCES `user`(`user_id`)
 )ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 CREATE TABLE `sale` (
@@ -273,7 +273,7 @@ VALUES
 
 --2021 deliveries
 INSERT INTO `delivery` 
-(`su_id`, `delivery_date`, `delivery_status`, `total_items`, `shop_location`)
+(`user_id`, `delivery_date`, `delivery_status`, `total_items`, `shop_location`)
 VALUES 
 ('2021-01-10 08:01:00', 'Completed', 50, 'Yeocha, Calamba Bayan'),
 ('2021-01-19 14:53:00', 'Completed', 50, 'Yeocha, Calamba Bayan'),
@@ -308,7 +308,7 @@ VALUES
 
 --2022 deliveries
 INSERT INTO `delivery` 
-(`su_id`, `delivery_date`, `delivery_status`, `total_items`, `shop_location`)
+(`user_id`, `delivery_date`, `delivery_status`, `total_items`, `shop_location`)
 VALUES 
 ('2022-01-05 08:34:00', 'Completed', 50, 'Yeocha, Calamba Bayan'),
 ('2022-01-14 12:36:00', 'Completed', 50, 'Yeocha, Calamba Bayan'),
@@ -342,7 +342,7 @@ VALUES
 
 --2023 deliveries
 INSERT INTO `delivery` 
-(`su_id`, `delivery_date`, `delivery_status`, `total_items`, `shop_location`)
+(`user_id`, `delivery_date`, `delivery_status`, `total_items`, `shop_location`)
 VALUES 
 ('2023-01-07 08:20:00', 'Completed', 50, 'Yeocha, Calamba Bayan'),
 ('2023-01-15 09:50:00', 'Completed', 50, 'Yeocha, Calamba Bayan'),
