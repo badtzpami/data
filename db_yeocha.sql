@@ -288,8 +288,8 @@ VALUES
 -- ** DELIVERY ** --
 
 --2021 deliveries
-INSERT INTO `delivery` 
-(`su_id`, `delivery_date`, `delivery_status`, `total_items`, `shop_location`)
+INSERT INTO `logistics` 
+(`user_id`, `delivery_date`, `delivery_status`, `total_items`, `shop_location`)
 VALUES 
 ('SU003', '2021-01-10 08:01:00', 'Completed', 50, 'Yeocha, Calamba Bayan'),
 ('SU001', '2021-01-19 14:53:00', 'Completed', 50, 'Yeocha, Calamba Bayan'),
@@ -330,8 +330,8 @@ VALUES
 
 
 --2022 deliveries
-INSERT INTO `delivery` 
-(`su_id`, `delivery_date`, `delivery_status`, `total_items`, `shop_location`)
+INSERT INTO `logistics` 
+(`user_id`, `delivery_date`, `delivery_status`, `total_items`, `shop_location`)
 VALUES 
 ('SU003', '2022-01-05 08:34:00', 'Completed', 50, 'Yeocha, Calamba Bayan'),
 ('SU002', '2022-01-14 12:36:00', 'Completed', 50, 'Yeocha, Calamba Bayan'),
@@ -371,8 +371,8 @@ VALUES
 ('SU003', '2022-12-22 11:18:00', 'Completed', 50, 'Yeocha, Calamba Bayan'),
 
 --2023 deliveries
-INSERT INTO `delivery` 
-(`su_id`, `delivery_date`, `delivery_status`, `total_items`, `shop_location`)
+INSERT INTO `logistics` 
+(`user_id`, `delivery_date`, `delivery_status`, `total_items`, `shop_location`)
 VALUES 
 ('SU003', '2023-01-07 08:20:00', 'Completed', 50, 'Yeocha, Calamba Bayan'),
 ('SU003', '2023-01-15 09:50:00', 'Completed', 50, 'Yeocha, Calamba Bayan'),
@@ -412,8 +412,8 @@ VALUES
 ('SU003', '2023-12-22 17:42:00', 'Completed', 50, 'Yeocha, Calamba Bayan'),
 
 -- 2024 deliveries
-INSERT INTO `delivery` 
-(`su_id`, `delivery_date`, `delivery_status`, `total_items`, `shop_location`)
+INSERT INTO `logistics` 
+(`user_id`, `delivery_date`, `delivery_status`, `total_items`, `shop_location`)
 VALUES 
 ('SU005', '2024-01-05 09:20:00', 'Completed', 50, 'Yeocha, Calamba Bayan'),
 ('SU004', '2024-01-13 11:09:00', 'Completed', 50, 'Yeocha, Calamba Bayan'),
