@@ -2410,7 +2410,7 @@ INSERT INTO `sale` (`sales_code`, `sell_price`, `quantity`, `total`, `status`, `
 ('20220449', 95, 6, 570, 'COMPLETED','2022-06-30 17:10:25', '0000-00-00 00:00:00'),
 ('20220450', 85, 5, 425, 'COMPLETED','2022-06-30 17:20:35', '0000-00-00 00:00:00'),
 ('20220451', 99, 9, 891, 'COMPLETED','2022-06-30 17:30:45', '0000-00-00 00:00:00'),
-('20220452', 85, 8, 680, 'COMPLETED','2022-06-30 17:40:55', '0000-00-00 00:00:00'),
+('20220452', 85, 8, 680, 'COMPLETED','2022-06-30 17:40:55', '0000-00-00 00:00:00');
 
 -- JULY
 INSERT INTO `sale` (`sales_code`, `sell_price`, `quantity`, `total`, `status`, `date_created_at`, `date_updated_at`) VALUES
@@ -2746,7 +2746,7 @@ INSERT INTO `sale` (`sales_code`, `sell_price`, `quantity`, `total`, `status`, `
 ('20220449', 95, 6, 570, 'COMPLETED','2022-09-30 17:10:25', '0000-00-00 00:00:00'),
 ('20220450', 85, 5, 425, 'COMPLETED','2022-09-30 17:20:35', '0000-00-00 00:00:00'),
 ('20220451', 99, 9, 891, 'COMPLETED','2022-09-30 17:30:45', '0000-00-00 00:00:00'),
-('20220452', 85, 8, 680, 'COMPLETED','2022-09-30 17:40:55', '0000-00-00 00:00:00'),
+('20220452', 85, 8, 680, 'COMPLETED','2022-09-30 17:40:55', '0000-00-00 00:00:00');
 
 -- OCTOBER
 INSERT INTO `sale` (`sales_code`, `sell_price`, `quantity`, `total`, `status`, `date_created_at`, `date_updated_at`) VALUES
@@ -3750,7 +3750,7 @@ INSERT INTO `sale` (`sales_code`, `sell_price`, `quantity`, `total`, `status`, `
 ('20230449', 95, 6, 570, 'COMPLETED','2023-06-30 17:10:25', '0000-00-00 00:00:00'),
 ('20230450', 85, 5, 425, 'COMPLETED','2023-06-30 17:20:35', '0000-00-00 00:00:00'),
 ('20230451', 99, 9, 891, 'COMPLETED','2023-06-30 17:30:45', '0000-00-00 00:00:00'),
-('20230452', 85, 8, 680, 'COMPLETED','2023-06-30 17:40:55', '0000-00-00 00:00:00'),
+('20230452', 85, 8, 680, 'COMPLETED','2023-06-30 17:40:55', '0000-00-00 00:00:00');
 
 -- JULY
 INSERT INTO `sale` (`sales_code`, `sell_price`, `quantity`, `total`, `status`, `date_created_at`, `date_updated_at`) VALUES
@@ -4086,7 +4086,7 @@ INSERT INTO `sale` (`sales_code`, `sell_price`, `quantity`, `total`, `status`, `
 ('20230449', 95, 6, 570, 'COMPLETED','2023-09-30 17:10:25', '0000-00-00 00:00:00'),
 ('20230450', 85, 5, 425, 'COMPLETED','2023-09-30 17:20:35', '0000-00-00 00:00:00'),
 ('20230451', 99, 9, 891, 'COMPLETED','2023-09-30 17:30:45', '0000-00-00 00:00:00'),
-('20230452', 85, 8, 680, 'COMPLETED','2023-09-30 17:40:55', '0000-00-00 00:00:00'),
+('20230452', 85, 8, 680, 'COMPLETED','2023-09-30 17:40:55', '0000-00-00 00:00:00');
 
 -- OCTOBER
 INSERT INTO `sale` (`sales_code`, `sell_price`, `quantity`, `total`, `status`, `date_created_at`, `date_updated_at`) VALUES
